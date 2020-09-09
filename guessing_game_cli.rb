@@ -6,9 +6,9 @@ def guessing_game_cli
   input = gets.chomp
 
   while input != "exit" do
-    counter = counter += 1
+    counter = 0
     if input == number
-      counter += 1
+      counter = counter += 1
       puts "You guessed the correct number! You've guessed correctly #{counter} times!"
     else
       puts "The computer guessed #{number}."
