@@ -18,4 +18,4 @@ while input != "exit" do
 end
 
   puts "Goodbye!"
-end 
+end
