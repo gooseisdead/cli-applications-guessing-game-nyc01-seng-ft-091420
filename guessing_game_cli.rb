@@ -1,6 +1,6 @@
 
 def run_guessing_game
-    num = rand(6)
+    num = rand(6) + 1
     num = num.to_s
     guess = gets.chomp
     if guess == num
