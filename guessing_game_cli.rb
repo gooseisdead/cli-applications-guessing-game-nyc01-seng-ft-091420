@@ -1,7 +1,6 @@
 
 def run_guessing_game
     number = rand(1..6).to_s
-    num = num.to_s
     guess = gets.chomp
     if guess == num
         puts "You guessed the correct number!"
