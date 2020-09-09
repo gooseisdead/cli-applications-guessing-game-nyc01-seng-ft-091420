@@ -1,5 +1,5 @@
 # Code your solution here!
-def run_guessing_game
+def guessing_game_cli
   puts "Guess a number between 1 and 6.\n"
   number = rand(1..6).to_s
 
