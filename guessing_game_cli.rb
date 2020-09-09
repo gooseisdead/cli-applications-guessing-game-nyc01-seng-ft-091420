@@ -9,7 +9,7 @@ def guessing_game_cli
     counter = 0
     if input == number
       counter = counter += 1
-      puts "You guessed the correct number! You've guessed correctly #{counter} times!"
+      puts "You guessed the correct number! You've guessed correctly #{counter +  1} times!"
     else
       puts "The computer guessed #{number}."
     end
